@@ -1,9 +1,16 @@
 import React from 'react';
 
-const Header = () => {
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
+
+const Header = async () => {
   return (
-    <div className="pt-10">
-      <h1>HEADER</h1>
+    <div className="bg-blue-50 py-4">
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
     </div>
   );
 };
