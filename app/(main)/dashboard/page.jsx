@@ -7,6 +7,7 @@ import { AccountCard } from './_components/account-card';
 
 const DashboardPage = async () => {
   const [accounts, transactions] = await Promise.all([getUserAccounts(), getDashboardData()]);
+  const defaultAccount = accounts?.find((account) => account.isDefault);
   return (
     <>
       {/* Budget Progress */}

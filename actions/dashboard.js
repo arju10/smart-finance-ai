@@ -17,7 +17,6 @@ const serializeTransaction = (obj) => {
   return serialized;
 };
 
-// Utility function to check if a user is authenticated
 export async function getUserAccounts() {
   const { userId } = await auth();
   if (!userId) throw new Error('Unauthorized');
