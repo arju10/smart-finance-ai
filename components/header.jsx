@@ -18,7 +18,9 @@ const Header = async () => {
             height={200}
             className="h-12 w-auto object-contain"
           /> */}
-          <h1 className="text-2xl bold">SmartFinance AI</h1>
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 bg-clip-text text-transparent">
+            SmartFinance AI
+          </h1>
         </Link>
 
         {/* Navigation Links - Different for signed in/out users */}

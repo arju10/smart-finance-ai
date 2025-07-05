@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+// Account Schema
 export const accountSchema = z.object({
   name: z.string().min(1, 'Name is required'),
   type: z.enum(['CURRENT', 'SAVINGS']),
@@ -7,6 +8,7 @@ export const accountSchema = z.object({
   isDefault: z.boolean().default(false),
 });
 
+// Transaction Schema
 export const transactionSchema = z
   .object({
     type: z.enum(['INCOME', 'EXPENSE']),
