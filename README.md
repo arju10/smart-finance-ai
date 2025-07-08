@@ -113,7 +113,7 @@ npx prisma db seed
 **5️⃣ Run**
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 ---
