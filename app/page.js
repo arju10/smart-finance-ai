@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { featuresData, howItWorksData, statsData, testimonialsData } from '@/data/landing';
 
 const LandingPage = () => {
+  console.log(testimonialsData.image);
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
