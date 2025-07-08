@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-👉 [**Live Site**](https://your-live-link.vercel.app)
+👉 [**Live Site**](https://smart-finance-ai-tau.vercel.app/)
 
 ---
 
